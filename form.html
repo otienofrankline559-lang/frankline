@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANCUN CATERING | Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar-animate">
+    <a href="#home" class="logo">DANCUN CATERING</a>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+        <p class="sub-title" data-aos="fade-up" data-aos-delay="200">Best food to taste</p>
+        <h1 data-aos="fade-up" data-aos-delay="400">DANCUN CATERING</h1>
+        <p data-aos="fade-up" data-aos-delay="600">Catering services for all your special occasions.</p>
+        <a href="#projects" class="btn btn-hero" data-aos="fade-up" data-aos-delay="800">View Gallery</a>
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="about-container">
+    <div class="about-content">
+        <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+            <img src="logo.jpg" alt="Profile" class="profile-pic">
+        </div>
+        <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+            <h2>Cooking with passion</h2>
+            <p>Cooking with passion and dedication. We deliver quality meals.</p>
+            <p>Based in Kenya, available for all events.</p>
+            <a href="#contact" class="btn">Let's Chat</a>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="projects" class="gallery-section">
+    <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">Featured Work</h2>
+    <div class="gallery-grid">
+        <div class="project-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+            <img src="download (5).jpg" alt="Wedding Catering">
+            <div class="caption"><h3>WEDDINGS</h3></div>
+        </div>
+        <div class="project-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+            <img src="download (7).jpg" alt="Indoor Events">
+            <div class="caption"><h3>INDOOR EVENTS</h3></div>
+        </div>
+        <div class="project-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+            <img src="Gallery.jpg" alt="Other Events">
+            <div class="caption"><h3>MANY MORE</h3></div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+    <h2 data-aos="fade-up" data-aos-duration="800">Book a Service</h2>
+    
+    <!-- ✅ FORMSPREE INTEGRATION WITH YOUR ID: mwvwoyze -->
+    <form action="https://formspree.io/f/mwvwoyze" method="POST" class="contact-form" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <!-- FOOTER -->
+    <footer class="footer-info">
+        <p>Email: 
+            <a href="mailto:otienofrankline559@gmail.com">
+                otienofrankline559@gmail.com
+            </a>
+        </p>
+        <p>&copy; 2026 Dancun Catering</p>
+    </footer>
+</section>
+
+<!-- AOS Library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Initialize AOS -->
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+    });
+</script>
+
+</body>
+</html>
